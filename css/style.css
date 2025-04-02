@@ -100,23 +100,49 @@ body{
 
 
 
-@media (max-width: 858px) {
-    table {
-        font-size: 12px; /* Reduce aún más la fuente */
+/* 🔹 Ajustes generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+      padding: 10px; /* Agrega un poco de espacio en dispositivos pequeños */
     }
-
-    th, td {
-        padding: 5px; /* Reduce el padding */
+    .menuCSS3 ul {
+      flex-direction: column; /* Cambia el menú a columna en pantallas pequeñas */
+      align-items: center; /* Centra los elementos */
+      padding: 10px 0; /* Ajusta el espaciado */
     }
-
- .menuCSS3 ul li a  {
-    display: block;
-    font-size: 16px;
-    text-align: center;
-   
-    
-
-
- }
-
-}
+    .menuCSS3 li {
+      margin: 10px 0; /* Agrega espacio entre elementos del menú */
+    }
+    .contenedorTabla {
+      font-size: 14px; /* Reduce el tamaño del texto de la tabla */
+    }
+    img {
+      width: 80%; /* Ajusta el tamaño de las imágenes */
+      max-width: 300px; /* Establece un ancho máximo */
+    }
+    h1 {
+      font-size: 22px; /* Ajusta el tamaño de los títulos */
+    }
+    p {
+      font-size: 16px; /* Ajusta el tamaño del texto */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menuCSS3 {
+      padding: 5px 0; /* Reduce el espacio interno del menú */
+    }
+    .menuCSS3 a {
+      font-size: 16px; /* Reduce el tamaño del texto de los enlaces */
+      padding: 8px 12px; /* Ajusta el espaciado interno */
+    }
+    h1 {
+      font-size: 20px; /* Ajusta el tamaño del título */
+    }
+    p {
+      font-size: 14px; /* Reduce el tamaño del texto */
+    }
+    img {
+      width: 90%; /* Ajusta las imágenes para dispositivos más pequeños */
+    }
+  }
