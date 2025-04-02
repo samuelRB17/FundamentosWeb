@@ -1,0 +1,122 @@
+body{
+    background-color: #ffffff;
+}
+
+
+
+.menuCSS3 p {
+    color: rgb(0, 0, 0); /* Cambia el color del texto a blanco */
+    font-size:larger;
+    font-family:sans-serif;
+}
+.menuCSS3 h1 {
+    color: rgb(0, 0, 0); /* Cambia el color del texto a blanco */
+    font-size: 40px;
+    font-family:'Arial Narrow';
+
+}
+
+
+.menuCSS3 a {
+    display: block;
+    padding: 1em 2em; /* Ajuste del padding */
+    background-color: #117af1;
+    text-decoration: none;
+    color: #fdfdfd;
+    transition: background-color 1s; /* Transición suave para el hover */
+    
+}
+
+.menuCSS3 a:hover {
+    background-color: #3300eb;
+}
+#CSS a {
+    background-color: transparent; /* Hace que los enlaces en la sección CSS no tengan fondo */
+    width: 300 px;
+    
+}
+#JavaScript  a {
+    background-color: transparent; /* Hace que los enlaces en la sección CSS no tengan fondo */
+    
+}
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menuCSS3 ul li {
+    position: relative; /* Necesario para el submenú */
+    height: 80px;
+    width: 100%;
+}
+.menuCSS3 ul li ul {
+    display: none;
+    position: absolute; /* Posiciona el submenú */
+    top: 100%; /* Muestra el submenú debajo del elemento padre */
+    left: 0;
+    padding: 0; /* Elimina padding del submenú */
+    margin: 0;
+    list-style: none;
+    background-color: #ff02c8; /* Es el color de fondo del submenú */
+   
+}
+
+.menuCSS3 ul li:hover ul {
+    display: block; /* Muestra el submenú al pasar el mouse por encima del elemento */
+}
+
+.menuCSS3 ul li ul li a {
+    padding: 1em;   
+}
+
+ .contenedorTabla {
+    background-color: #cacaca;
+    width: 80%; /* Ajusta el tamaño al 80% del contenedor */
+    max-width: 1000px; /* Limita el ancho máximo */
+    margin: auto; /* Centra la tabla */
+}
+.contenedorTabla{
+
+        width: 80%; /* Hace la tabla más pequeña */
+        max-width: 1000px; /* No permite que crezca demasiado */
+        margin: auto; /* Centra la tabla */
+        overflow-x: auto; /* Permite desplazamiento si es necesario */
+        padding: 0px; /* Agrega espacio dentro */
+ 
+}
+.contenedorTabla img {
+    width: 200px; /* Ajusta todas las imágenes a un tamaño uniforme */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    margin: auto;
+
+}
+.contenedorTabla tr:hover{
+    background-color: rgb(175, 177, 172);
+
+}
+
+
+
+@media (max-width: 858px) {
+    table {
+        font-size: 12px; /* Reduce aún más la fuente */
+    }
+
+    th, td {
+        padding: 5px; /* Reduce el padding */
+    }
+
+ .menuCSS3 ul li a  {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+   
+    
+
+
+ }
+
+}
